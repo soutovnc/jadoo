@@ -1,0 +1,42 @@
+.headerContainer {
+  height: 2.5rem;
+}
+
+.headerContent {
+  max-width: 1280px;
+  height: 2.5rem;
+  margin: 47px 140px;
+  padding: 0 2rem;
+
+  display: flex;
+  align-items: center;
+
+  nav {
+    margin-left: 13.8rem;
+    height: 2.5rem;
+
+    a {
+      display: inline-block;
+      position: relative;
+      padding: 0 0.5rem;
+      height: 2.18rem;
+      line-height: 2.18rem;
+      color: var(--gray-700);
+
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      font-size: 1.1rem;
+
+      & + a {
+        margin-left: 3.4375rem;
+      }
+
+      
+    }
+
+    .login {
+      border: 1px solid var(--gray-700);
+      border-radius: 5px;
+    }
+  }
+}
