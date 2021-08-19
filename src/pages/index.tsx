@@ -1,4 +1,5 @@
 import styles from './home.module.scss'
+import { AiFillPlayCircle } from 'react-icons/ai'
 
 
 export default function Home() {
@@ -9,11 +10,13 @@ export default function Home() {
           <span>BEST DESTINATIONS AROUND THE WORLD</span>
           <h1>Travel, enjoy and live a new and full life</h1>
           <p>Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
-          <a>Find out more</a>
-          <button>
-            <img src="/images/play.png" alt="play button" />
-            Play Demo
-          </button>
+          <nav>
+            <a>Find out more</a>
+            <button>
+              <AiFillPlayCircle size={52} color="#DF6951" />
+              <p>Play Demo</p>
+            </button>
+          </nav>
 
         </section>
         <img src="/images/girl.png" alt="girl" className={styles.girl} />

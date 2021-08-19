@@ -8,8 +8,8 @@
 }
 
 .hero {
-  max-width: 700px;
-  margin-top: -5.5rem;
+  max-width: 650px;
+  // margin-top: -5.5rem;
   margin-left: 9.25rem;
 
   > span {
@@ -30,7 +30,7 @@
     margin-top: 1.5rem;
   }
 
-  p {
+  > p {
     max-width: 28.125rem;
     font-family: 'Poppins', sans-serif;
     color: var(--blue-50);
@@ -38,30 +38,40 @@
     margin-top: 1.875rem;
   }
 
-  a {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 1.125rem;
-    color: var(--white);
+  nav {
+    margin-top: 2.1rem;
+    display: flex;
 
-    background: var(--yellow-500);
-    width: 10.6rem;
-    height: 3.75rem;
-    border-radius: 0.625rem;
-    padding: 1.5rem;
-    margin-top: 2.125rem;
-  }
-
-  button {
-    border: none;
-    background-color: #fff;
-    text-decoration: none;
-    display: inline-flex;
-
-    img {
-      padding: 0;
+    a {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      font-size: 1.125rem;
+      color: var(--white);
+  
+      background: var(--yellow-500);
+      border-radius: 0.625rem;
+      padding: 1.1rem;
+    }
+  
+    button {
+      margin-left: 2.75rem;
+      border: none;
+      background-color: #fff;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+    }
+    
+    p {
+      color: #686D77;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 500;
+      margin-left: 1.3rem;
     }
   }
+
+  
 }
 
 .girl {
@@ -69,6 +79,5 @@
   height: 764px;
   width: 765px;
   z-index: -0.5;
-  
 }
 
