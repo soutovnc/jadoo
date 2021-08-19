@@ -9,6 +9,7 @@
   --gray-700: #212832; // 
   --blue-50: #5E6282;
   --blue-500: #181E4B;
+  --yellow-500: #F1A501;
   --orange-100: #DF6951;
 }
 
@@ -41,7 +42,7 @@ a {
   top: 0;
   right: 0;
   z-index: -1;
-  position: absolute;
+  position: fixed;
   display: flex;
 }
 

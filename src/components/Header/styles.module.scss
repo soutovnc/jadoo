@@ -3,7 +3,7 @@
 }
 
 .headerContent {
-  max-width: 1280px;
+  width: 1280px;
   height: 2.5rem;
   margin: 47px 140px;
   padding: 0 2rem;
@@ -12,7 +12,8 @@
   align-items: center;
 
   nav {
-    margin-left: 13.8rem;
+    margin-left: 12rem;
+    // margin: 0 auto;
     height: 2.5rem;
 
     a {

@@ -37,10 +37,37 @@
     line-height: 1.875rem;
     margin-top: 1.875rem;
   }
+
+  a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: var(--white);
+
+    background: var(--yellow-500);
+    width: 10.6rem;
+    height: 3.75rem;
+    border-radius: 0.625rem;
+    padding: 1.5rem;
+    margin-top: 2.125rem;
+  }
+
+  button {
+    border: none;
+    background-color: #fff;
+    text-decoration: none;
+    display: inline-flex;
+
+    img {
+      padding: 0;
+    }
+  }
 }
 
 .girl {
   margin-top: 1.125rem;
+  height: 764px;
+  width: 765px;
   z-index: -0.5;
   
 }
