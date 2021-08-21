@@ -40,10 +40,10 @@ a {
 
 .decore {
   top: 0;
+  margin-right: -20vh;
   right: 0;
   z-index: -1;
-  position: fixed;
-  display: flex;
+  position: absolute;
 }
 
 .underline {

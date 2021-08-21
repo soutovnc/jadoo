@@ -19,14 +19,13 @@ export default function Home() {
           </nav>
 
         </section>
-        <img src="/images/girl.png" alt="girl" className={styles.girl} />
+        <img src="/images/girl.png" alt="girl" className={styles.girl}/>
 
 
         <img src="/images/underline.svg" alt="underline" className="underline" />
-        <img src="/images/decore.svg" alt="decore" className="decore" />
 
       </main>
-
+      <img src="/images/decore.svg" alt="decore" className="decore" />
     </>
   )
 }
