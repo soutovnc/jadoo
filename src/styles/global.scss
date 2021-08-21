@@ -39,17 +39,23 @@ a {
 }
 
 .decore {
-  top: 0;
-  margin-right: -20vh;
-  right: 0;
-  z-index: -1;
+  z-index: -2;
   position: absolute;
+  width: 766.31px;
+  height: 872.58px;
+  left: 798px;
+  top: -153px;
 }
 
 .underline {
-  top: 343px;
-  left: 393px;
+  // top: 343px;
+  // left: 393px;
   z-index: -1;
-  display: flex;
+  // display: flex;
+  // position: absolute;
   position: absolute;
+  width: 385px;
+  height: 12px;
+  left: 393px;
+  top: 340px;
 }

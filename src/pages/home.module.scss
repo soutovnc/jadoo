@@ -1,6 +1,6 @@
 .contentContainer {
-  max-width: 1200px;
-  margin-left: 9.25rem;
+  // max-width: 1200px;
+  // margin-left: 26rem;
 
   display: flex;
   align-items: center;
@@ -9,11 +9,15 @@
 }
 
 .hero {
-  max-width: 1200px;
-  // margin-top: -5.5rem;
-  margin-left: 9.25rem;
+  // margin-top: 8.2rem;
+  // margin-left: 9.25rem;
   position: absolute;
-  left: 0;
+  // left: 0;
+  width: 630px;
+  height: 535px;
+  left: 148px;
+  top: 217px;
+
   > span {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
@@ -81,7 +85,12 @@
 
 .girl {
   margin-top: 1.125rem;
+  // height: 500px;
+  // width: 500px;
+  z-index: -1;
+  position: absolute;
+  width: 783.87px;
   height: 764px;
-  width: 765px;
-  z-index: -0.5;
+  left: 565px;
+  top: 105px;
 }
