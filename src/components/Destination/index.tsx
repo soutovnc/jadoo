@@ -21,7 +21,28 @@ export function Destination() {
             </span>
           </div>
         </div>
-        
+        <div className={styles.card}>
+          <img src="/images/london.png" alt="London, UK" />
+          <div className={styles.info}>
+            <h4>London, UK</h4>
+            <p>$ 4,2k</p>
+            <span>
+              <FiNavigation />
+              12 Days trip
+            </span>
+          </div>
+        </div>
+        <div className={styles.card}>
+          <img src="/images/fully.png" alt="Full Europe" />
+          <div className={styles.info}>
+            <h4>Full Europe</h4>
+            <p>$ 15k</p>
+            <span>
+              <FiNavigation />
+              28 Days trip
+            </span>
+          </div>
+        </div>
       </section>
     </main>
   )
