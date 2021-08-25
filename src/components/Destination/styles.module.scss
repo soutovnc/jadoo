@@ -1,0 +1,73 @@
+.container {
+  position: absolute;
+  width: 1228px;
+  height: 617px;
+  left: 173px;
+  top: 1614px;
+}
+
+.title {
+  text-align: center;
+
+  span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.687rem;
+
+    color: var(--blue-100);
+  }
+
+  h1 {
+    font-family: 'Volkhov', sans-serif;
+    font-weight: bold;
+    font-size: 3.125rem;
+    line-height: 4rem;
+
+    color: var(--blue-700);
+  }
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 3.75rem;
+}
+
+.card {
+  width: 19.67rem;
+  height: 28.6rem;
+  // padding: 0.2rem;
+}
+
+
+.info {
+  background: #ffffff;
+  position: absolute;
+  width: 19.67rem;
+  height: 8.125rem;
+  margin-left: 5rem;
+  margin-top: -19.5rem;
+  border-radius: 0 0 1.5rem 1.5rem;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+
+  display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  justify-content: space-between;
+  
+
+  span {
+    margin-top: 19px;
+  }
+}
+
+
+.arial {
+  position: absolute;
+  z-index: -1;
+  width: 6rem;
+  height: 15.75rem;
+  left: 73.6875rem;
+  margin-top: 10rem;
+}

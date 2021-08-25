@@ -43,6 +43,7 @@ export function Destination() {
             </span>
           </div>
         </div>
+        <img src="/images/arial.svg" alt="Arial" className={styles.arial}/>
       </section>
     </main>
   )
