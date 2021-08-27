@@ -17,7 +17,7 @@ export function Destination() {
             <p>$ 5,42k</p>
             <span>
               <FiNavigation />
-              10 Days trip
+              <p>10 Days trip</p>
             </span>
           </div>
         </div>
@@ -28,7 +28,7 @@ export function Destination() {
             <p>$ 4,2k</p>
             <span>
               <FiNavigation />
-              12 Days trip
+              <p>12 Days trip</p>
             </span>
           </div>
         </div>
