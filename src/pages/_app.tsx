@@ -1,4 +1,5 @@
 import { AppProps } from 'next/app'
+import { Book } from '../components/Book'
 import { Category } from '../components/Category'
 import { Destination } from '../components/Destination'
 import { Header } from '../components/Header'
@@ -12,6 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Component {...pageProps} />
       <Category />
       <Destination />
+      <Book />
     </>
   ) 
 }
