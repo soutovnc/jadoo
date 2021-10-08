@@ -2,7 +2,7 @@
   position: absolute;
   width: 1228px;
   height: 617px;
-  left: 173px;
+  left: 186px;
   top: 2417px;
   display: flex;
 }
@@ -24,6 +24,7 @@
     margin-top: 15px;
     color: var(--blue-700);
     text-transform: capitalize;
+    width: 511px;
   }
 
   .choose {
@@ -105,7 +106,20 @@
   }
 }
 
-.shadow {
-  z-index: -5;
-  position: relative;
+.details {
+  margin-left: 118px;
+
+
+  img {
+    position: absolute;
+  }
+  
+  .shadow {
+    z-index: -5;
+    position: relative;
+
+    img {
+      top: -225px;
+    }
+  }
 }
